@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/validationEngine.jquery.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <title>portfolio</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <img src="img/myPortfolio.png" class="top_icon">
+      <a href="#contact" class="contact_btn btn">お問い合わせ</a>
+      <nav>
+        <div class="responsive_menu">
+          <ul id="navi">
+            <li><a class="scroll_btn" href="#profile">プロフィール</a></li>
+            <li><a class="scroll_btn" href="#skill">対応スキル</a></li>
+            <li><a class="scroll_btn" href="#service">サービス</a></li>
+            <li><a class="scroll_btn" href="#step">ステップ</a></li>
+            <li><a class="scroll_btn" href="#performance">実績紹介</a></li>
+            <li><a class="scroll_btn" href="#faq">よくある質問</a></li>
+          </ul>
+          <!-- ボタン部分ここを後で追加するだけ-->
+          <div class="nav_btn" id="nav_btn">
+            <span class="hamburger_line hamburger_line1"></span>
+            <span class="hamburger_line hamburger_line2"></span>
+            <span class="hamburger_line hamburger_line3"></span>
+          </div>
+          <div class="nav_bg" id="nav_bg"></div>
+          <!-- /ボタン部分ここを後で追加するだけ-->    
+        </div>
+        <div class="clear"></div>
+        <div class="menu">
+          <ul class="flex_menu">
+            <li class="flex_list"><a class="scroll_btn" href="#profile">プロフィール</a></li>
+            <li class="flex_list"><a class="scroll_btn" href="#skill">対応スキル</a></li>
+            <li class="flex_list"><a class="scroll_btn" href="#service">サービス</a></li>
+            <li class="flex_list"><a class="scroll_btn" href="#step">ステップ</a></li>
+            <li class="flex_list"><a class="scroll_btn" href="#performance">実績紹介</a></li>
+            <li class="flex_list"><a class="scroll_btn" href="#faq">よくある質問</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="bkImage">
+      <h1>Webサイト制作全てお任せ下さい</h1>
+      <p>サーバ調達からWeb制作までマルっと対応致します。</p>
+      <a href="#contact" class="bkcontact_btn long_btn">無料相談はこちらから</a>
+    </div>
+  </header>
+
+  <div id="profile" class="profile">
+    <div class="container">
+      <div class="title"><h3>プロフィール</h3></div>
+      <div class="profile_contents">
+        <img src="img/myFace.png">
+        <p class="myname">まつけん@アプリ×インフラ</p>
+        <p>本ポートフォリオサイトをご覧頂きありがとうございます。現役システムエンジニアの「まつけん」と申します。</p>
+        <p>これまでのキャリアと致しまして、某大手Sier様や通信事業者様向けのインフラ基盤の構築・運用保守に携わっていました。現在は上記のキャリアに加え、主に個人・法人様向けのWeb制作の方承っております。</p>
+        <p></p>
+        <div class="new_line"></div>
+        <p>サイト制作に当たってデザインは勿論の事、お客様が真に求めるご要望にお答えする為に、技術面だけで無くお客様とのコミュニケーションも大切にしつつ迅速な対応を心掛けております。まずはお気軽にお問い合わせ下さい。</p>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div id="skill" class="skill">
+    <div class="container">
+      <div class="title"><h3>対応スキル</h3></div>
+      <div class="warning">
+        <p>※以下についてはあくまで一例です。</p>
+        <p>記載した物以外に関しましてもご要望などありましたら、まずはお気軽にお問い合わせ下さい。</p>
+      </div>
+      <div class="skills">
+        <div class="skillarea">
+          <p class="skill_name">HTML5 & CSS3</p>
+          <img src="img/html5.png">
+          <p class="explain">LP・Webサイト制作のコーディングやデザイン作成に対応可能です</p>
+        </div>
+        <div class="skillarea">
+          <p class="skill_name">BootStrap</p>
+          <img src="img/bootstrap.png">
+          <p class="explain">CSSコーディングに加え今時かつお洒落なデザインのサイト制作が対応可能です</p>
+        </div>
+        <div class="skillarea">
+          <p class="skill_name">Javascript</p>
+          <img src="img/javascript.png">
+          <p class="explain">LP・Webサイトに動きのある処理を追加する事で、よりデザイン性の高いサイト制作の対応が可能です</p>
+        </div>
+        <div class="skillarea">
+          <p class="skill_name">JQuery</p>
+        　<img src="img/jquery.png">
+          <p class="explain">JavaScriptコーディングに加えより動的なデザイン性の高いサイト制作の対応が可能です</p>
+        </div>
+        <div class="skillarea">
+          <p class="skill_name">WordPress</p>
+          <img src="img/wordpress.jpg">
+          <p class="explain">既存テーマを利用したサイト制作以外にも独自のテーマの制作・カスタマイズが可能です</p>
+        </div>
+        <div class="skillarea">
+          <p class="skill_name">AWS</p>
+          <img src="img/aws.jpg">
+          <p class="explain">クラウドを利用したサービス基盤構築・冗長性やスケール構成を用いたサービス提供が可能です</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="service" class="service">
+    <div class="container">
+      <div class="title"><h3>サービス</h3></div>
+      <div class="services">
+        <div class="servicearea">
+          <img src="img/developWeb.jpg">
+          <p class="service_name">LP・Webサイト制作プラン</p>
+          <p class="explain">LPサイト制作・Webサイト制作をご希望の方はこちらのプランになります。</p>
+          <p class="explain">お客様のご要望にあったサイト制作をプロフェッショナルとして責任を持って対応させて頂きます。</p>
+          <p class="explain check_point">【+α対象】</p>
+          <p class="explain"><i class="fa fa-check"></i>納品後のサイト改修・お問い合わせサポート</p>
+          <p class="explain"><i class="fa fa-check"></i>納品後の長期サポートのご要望にもお答え致します</p>
+        </div>
+        <div class="clear"></div>
+        <div class="servicearea">
+          <img src="img/supportWeb.jpg">
+          <p class="service_name">LP・Webサイトマルっと保守プラン</p>
+          <p class="explain">LP・Webサイトの長期的なサポートをご希望な方はこちらのプランになります。</p>
+          <p class="explain">また私以外が制作したサイトに関しても、サイトの改修・サポート対応致します。</p>
+          <p class="explain">(※事前にサポート対象のサイトを検証させて頂く事が必須となります)</p>
+          <p class="explain check_point">【+α対象】</p>
+          <p class="explain"><i class="fa fa-check"></i>SEO対策サポート</p>
+          <p class="explain"><i class="fa fa-check"></i>メルマガ配信などに利用されるメールサーバ保守等にも対応致します</p>
+        </div>
+        <div class="clear"></div>
+        <div class="servicearea">
+          <img src="img/server.jpg">
+          <p class="service_name">インフラ基盤構築プラン</p>
+          <p class="explain">必要なサーバ調達などの環境周りについてご希望の方はこちらのプランになります。</p>
+          <p class="explain">サイトの規模やコストに合わせてレンタルサーバ・VPS・クラウド等柔軟に対応致します</p>
+          <p class="explain check_point">【+α対象】</p>
+          <p class="explain"><i class="fa fa-check"></i>Webサイトのドメイン取得やSSL化にも対応致します</p>
+          <p class="explain"><i class="fa fa-check"></i>高可用性が求められるWebサイトのインフラ基盤の提供にも対応致します</p>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <!--ステップ-->
+  <div id="step" class="step">
+    <div class="container">
+      <div class="title"><h3>ステップ</h3></div>
+      <p class="message">以下の6ステップで確実にお客様のご要望にお答え致します</p>
+      <div class="explain">
+        <p>リモートでのやり取りの課題としてコミュニケーションの壁・進捗状況が見えないなどの要員が挙げられます。</p>
+        <p>今回これらの課題を解決する為に<strong>お客様の負担を極力軽く</strong>かつ<strong>進捗状況の見える化</strong>を徹底致します。</p>
+      </div>
+      <div class="pcStep">
+        <img src="img/pcStep1.png">
+        <img src="img/pcStep2.png">
+      </div>
+      <div class="mStep">
+        <img src="img/mStep1.png">
+        <img src="img/mStep2.png">
+        <img src="img/mStep3.png">
+        <img src="img/mStep4.png">
+        <img src="img/mStep5.png">
+        <img src="img/mStep6.png">
+      </div>
+    </div>
+  </div>
+
+  <!--ニュース
+  <div id="news" class="news">
+    <div class="container">
+      <div class="title"><h3>ニュース</h3></div>
+      <p style="text-align: center;line-height: 1.5;">※ここはWordPressと連携して、WordPressから入力された内容を表示致します。</p>
+      <p style="text-align: center;line-height: 1.5;">入力フォーマットは"日付"と"更新内容"の2つ。</p>
+    </div>
+  </div>
+-->
+
+  <!--実績紹介-->
+  <div id="performance" class="performance">
+    <div class="container">
+      <div class="title"><h3>実績紹介</h3></div>
+      <div class="performance1">
+        <a href="#"><img src="img/portfolio1.png"></a>
+        <p>マツケン@ポートフォリオサイト</p>
+      </div>
+      <div class="performance2">
+        <a href="#"><img src="img/portfolio2.png"></a>
+        <p>マツケン@オリジナルサイト(未作)</p>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <!--よくある質問-->
+  <div id="faq" class="faq">
+    <div class="container">
+      <div class="title"><h3>よくある質問</h3></div>
+      <ul class="faqs">
+
+        <li class="faqarea">
+          <h3 class="question">現時点でサイト制作を依頼するか不明です。本当に相談させて頂くだけでも大丈夫でしょうか？</h3>
+          <span>+</span>
+          <div class="answer">
+            <p>勿論大歓迎です。気軽にお問い合わせ下さい。</p>
+          </div>
+        </li>
+        <li class="faqarea">
+          <h3 class="question">PCサイト以外にもタブレット・スマホ対応等していますでしょうか？</h3>
+          <span>+</span>
+          <div class="answer">
+            <p>タブレット・スマホ対応にも対応可能です。</p>
+          </div>
+        </li>
+        <li class="faqarea">
+          <h3 class="question">サイト制作に当たって必要な知識が全く無い状態ですが対応可能でしょうか？</h3>
+          <span>+</span>
+          <div class="answer">
+            <p>勿論可能です。</p>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+
+
+  <!--お問い合わせ-->
+  <form name="contact_form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe1Igk6gqVgSV6eDBkXlbP5adE4GajlUq0c-pUGV-HF2YF6QA/formResponse">
+    <div id="contact" class="contact">
+      <div class="container">
+        <div class="title"><h3>お問い合わせ</h3></div>
+        <div class="contact_message">
+          <p>どんな些細なことでもお気軽にお問い合わせください。</p>
+          <p>お問い合わせにつきまして以下の入力フォームからお願い致します。</p>
+        </div>
+        <div class="input_form">
+          <span class="kanji">お名前</span><span class="require">必須</span>
+          <input name="entry.1608090877" type="text" class="name_form" placeholder="田中太郎" required>
+        </div>
+        <div class="input_form">
+          <span class="hurigana">フリガナ</span><span class="require">必須</span>
+          <input name="entry.359887946" type="text" class="name_form" placeholder="田中タロウ" required>
+        </div>
+        <div class="input_form">
+          <span class="mail">メールアドレス</span><span class="require">必須</span>
+          <input name="entry.2091383997" type="mail" class="name_form" placeholder="sample@examle.com" required>
+        </div>
+        <div class="input_form">
+          <span class="company">会社名</span><span class="no_require">任意</span>
+          <input name="entry.1251121308" type="text" class="name_form" placeholder="サンプル株式会社">
+        </div>
+        <div class="input_form">
+          <span class="phone">電話番号</span><span class="no_require">任意</span>
+          <input name="entry.1578964568" type="tel" class="name_form" placeholder="090-1234-5678">
+        </div>
+        <div class="input_form">
+          <span class="question_type">問い合わせ種別</span><span class="require">必須</span>
+          <select name="entry.1161114731" class="name_form">
+            <option value="LPサイト制作の相談">LPサイト制作の相談</option>
+            <option value="Webサイト制作の相談">Webサイト制作の相談</option>
+            <option value="インフラ構築の相談">インフラ構築の相談</option>
+            <option value="その他">その他</option>
+          </select>
+          
+        </div>
+        <div class="input_form text_middle">
+          <span class="question_sentence">問い合わせ内容</span><span class="require">必須</span>
+          <textarea name="entry.1919498922" class="name_form" rows="6" required></textarea>
+        </div>
+        <div class="form_btn"><a href="javascript:contact_form.submit()" class="send_btn long_btn">申し込みする</a></div>
+      </div>
+    </div>
+  </form>
+
+  
+
+  <footer>
+    <!--topへ戻るボタン-->
+    <div id="page_top"><a href="#"><p>top</p></a></div>
+    <p>Copyright©kenmatsu. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="js/jquery.validationEngine.js"></script>
+  <script src="js/languages/jquery.validationEngine-ja.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
