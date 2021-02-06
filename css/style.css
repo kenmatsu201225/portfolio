@@ -136,7 +136,7 @@ header .responsive_menu ul li{display: none;}
   float: left;
   margin: 0 3% 40px 15%;
 }
-.services>.servicearea>.service_name{font-weight: bold;margin-bottom: 10px;}
+.services>.servicearea>div>.service_name{font-weight: bold;margin-bottom: 10px;}
 .services>.servicearea>.check_point{margin-top:3px;}
 .services>.servicearea>.explain>i{margin-right: 5px;color: #FF1A6F;}
 
