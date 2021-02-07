@@ -83,8 +83,8 @@ header .nav_btn{
 .mStep{display: block;}
 .mStep > img{display: inline-block;width: 260px;}
 /*=====実績エリア=====*/
-.performance1{width: 100%;padding: 0px 0px 10px 0px;}
-.performance2{width: 100%;padding: 0px 0px 10px 0px;}
+.performance1{width: 100%;margin: 0px 0px 0px 0px;}
+/*.performance2{width: 100%;padding: 0px 0px 10px 0px;}*/
 
 /*=====よくある質問エリア=====*/
 .faq .faqs .faqarea h3{font-size: 12px;width: 95%;}
