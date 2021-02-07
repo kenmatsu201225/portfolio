@@ -63,7 +63,7 @@ header .nav_btn{
 .nav_open .hamburger_line3 {transform: rotate(-45deg);top: 20px;}
 /*PC用メニューは表示させない*/
 .menu{display: none;}
-.bkImage{padding:100px 0 200px 0;background-image:url("../img/mbkImage.png");}
+.bkImage{padding:100px 0 100px 0;background-image:url("../img/mbkImage.png");}
 .bkImage>h1{font-size: 22px;}
 .bkImage>p{font-size: 13px;}
 /*=====プロフィールエリア=====*/
